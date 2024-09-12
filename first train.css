@@ -1,0 +1,40 @@
+/* cascade style sheet  ==> to creat presentation and visuals
+css levels ====1 to 3
+web , UI ,front-end developer */
+
+/*target all parags .....selectors
+
+ */
+p{
+    color: rgb(9, 255, 0);
+    font-size: large;
+}
+/* for class === .class name */
+/* .test { */
+    /* # ==== for id */
+    /* color: red;
+    font-size: 40px;
+}; */
+
+div{
+    background-color:rgb(63, 46, 46);
+    background-image: url("../backgrounds/background1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50%;
+    background-size:20%;
+    /* padding : top right bottom left 
+        No nagative value */
+    padding: 50px 10px; 
+    padding-bottom: 40px;
+    
+    /* margin : top right bottom left
+        accept nagative value */
+    margin: 50px; 
+    /* border-width: 10px;
+    border-color: red;
+    border-style: solid; */
+    border: 7px solid red;
+    /* not important */
+    outline: 5px solid black;
+};
